@@ -1,7 +1,10 @@
 ashish@ashish-System-Product-Name:~/index$ gem install bundler
 Fetching: bundler-1.10.6.gem (100%)
+
 ERROR:  While executing gem ... (Gem::FilePermissionError)
+
     You don't have write permissions for the /var/lib/gems/2.1.0 directory.
+    
 ashish@ashish-System-Product-Name:~/index$ sudo gem install bundler
 Fetching: bundler-1.10.6.gem (100%)
 Successfully installed bundler-1.10.6
